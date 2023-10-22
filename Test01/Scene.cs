@@ -1,23 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 
 namespace Test01
 {
     class Scene
     {
-        private string[,]_scene;
+        private string[,] _scene;
         private int _width;
         private int _height;
         public Scene(int height, int width)
         {
-
             this._height = height;
             this._width = width;
             _scene = new string[height, width];
-
         }
 
         private void Clear()
